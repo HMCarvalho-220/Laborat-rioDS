@@ -1,17 +1,20 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Aluno aluno1 = new Aluno(1, "João Silva", "joao@email.com", "senha123", "2023001", "Ciência da Computação");
+        Aluno aluno2 = new Aluno(2, "Maria Souza", "maria@email.com", "senha456", "2023002", "Engenharia de Software");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        Disciplina matematica = new Disciplina(101, "Matemática", 4, 60, 3);
+        Disciplina programacao = new Disciplina(202, "Programação", 6, 60, 3);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        aluno1.matricular(matematica);
+        aluno2.matricular(programacao);
+
+        aluno1.verMatriculas();
+        aluno2.verMatriculas();
+
+        System.out.println("Matemática atingiu o mínimo de alunos? " + matematica.verificarMinimoAlunos());
+        System.out.println("Programação atingiu o mínimo de alunos? " + programacao.verificarMinimoAlunos());
+        aluno1.cancelarMatricula(matematica);
+        aluno1.verMatriculas();
     }
 }

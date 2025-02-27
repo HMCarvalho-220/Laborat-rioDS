@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9061230-5ee7-4c8b-8e19-916d9efae918" name="Changes" comment="" />
+    <list default="true" id="d9061230-5ee7-4c8b-8e19-916d9efae918" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SistemaCobranca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Disciplina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Disciplina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matricula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matricula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Secretaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Secretaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaCobrança.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Usuario.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,22 +71,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740675617255</updated>
-      <workItem from="1740675620950" duration="844000" />
+      <workItem from="1740675620950" duration="3972000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
